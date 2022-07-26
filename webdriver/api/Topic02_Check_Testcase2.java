@@ -12,7 +12,7 @@ public class Topic02_Check_Testcase2 {
 	public void beforeClass() {
 		//mở app
 		driver = new FirefoxDriver();
-		driver.get("https://github.com/");
+		driver.get("https://google.com.vn/");
 		}
 	
   @Test
