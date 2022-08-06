@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="webdriver"/>
+	<classpathentry excluding="api/Xpath_Css_Locator.java" kind="src" path="webdriver"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-2.53.1.jar"/>
 	<classpathentry kind="lib" path="libraries/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="BrowserDriver/chromedriver.exe"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
